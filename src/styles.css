@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+  color: red;
+}
+
+button {
+  cursor: -moz-grabbing;
+}
+
+.box {
+  /* width: 100px;
+  height: 100px; */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid goldenrod;
+  background-color: blue;
+}
